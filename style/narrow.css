@@ -1,0 +1,31 @@
+#content {
+	text-align: center;
+}
+
+#header {
+	display: inline-block;
+	text-align: center;
+	padding: 0;
+	background-image: none;
+}
+
+.details {
+	width: 100%;
+}
+
+.details th,td {
+	display: block;
+	text-align: left;
+}
+
+.details td:empty {
+	display: none;
+}
+
+.details .header {
+	display: none;
+}
+
+.date {
+	font-weight: bold;
+}

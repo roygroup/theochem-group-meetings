@@ -1,0 +1,56 @@
+body {
+	font-family: sans-serif;
+}
+
+a {
+	color: #00c;
+}
+
+a:visited {
+	color: #808;
+}
+
+#content {
+	max-width: 60em;
+	margin: 0 auto;
+}
+
+#header {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: left;
+	padding-left: 20em;
+	background-image: url('../images/uw_logo.png');
+	background-size: 20em;
+	background-repeat: no-repeat;
+	background-position: center left;
+}
+
+.details th,td {
+	border-style: none;
+	padding: 0.5em;
+}
+
+.details tr {
+	background-color: #f6f6f4;
+}
+
+.details tr:first-child {
+	background-color: #e0e0e0;
+}
+
+.details tr:nth-child(even) {
+	background-color: #f0f0f0;
+}
+
+.details tr:not(.header):hover {
+	background-color: #fcfcfc;
+}
+
+.date {
+	white-space: nowrap;
+}
+
+.presenter {
+	white-space: nowrap;
+}
