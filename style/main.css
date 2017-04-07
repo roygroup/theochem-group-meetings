@@ -26,6 +26,27 @@ a:visited {
 	background-position: center left;
 }
 
+#nav {
+	text-align: center;
+}
+
+#nav a {
+	color: #000;
+}
+
+#nav a:visited {
+	color: #000;
+}
+
+.details {
+	margin-top: 1em;
+	border: 2px solid white;
+}
+
+.details:target {
+	border: 2px solid black;
+}
+
 .details th,td {
 	border-style: none;
 	padding: 0.5em;
